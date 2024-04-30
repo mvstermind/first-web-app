@@ -2,12 +2,13 @@ package main
 
 import (
 	"database/sql"
-	"first.webapp.tv/internal/models"
 	"flag"
-	_ "github.com/go-sql-driver/mysql"
 	"log/slog"
 	"net/http"
 	"os"
+
+	"first.webapp.tv/internal/models"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 type application struct {
